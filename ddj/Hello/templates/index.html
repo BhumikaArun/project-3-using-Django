@@ -1,0 +1,158 @@
+{%extends 'base.html'%}
+
+{% block title %}Home
+  
+{% endblock title %}
+  
+{%block body%}
+
+<div class="container-fluid my-4 px-0">
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1627373717516-0f4bb24c487d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100" height="490px" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Chill Out with Our Premium Ice Cream Selection</h5>
+          <p>Welcome to Amul IceCream: Indulge in a World of Frozen Delights</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1606169109553-aa8c5e4a62b9?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100" height="490px" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>From Classic Favorites to Creative Concoctions</h5>
+          <p>The Scoop on Our Ingredients: Quality and Freshness Guaranteed</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1507079477490-37bfa7d4edec?q=80&w=2040&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100" height="490px" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Dive into Our Ice Cream Wonderland</h5>
+          <p>Flavor Adventures: Explore Our Unique and Inventive Ice Cream Creations</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<div class="container my-3">
+  <h1 class="my-4 text-center">Select from our range of ice cream</h1>
+
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://images.unsplash.com/photo-1663161976592-cc8e9f7e5463?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100%" height="100%" class="d-block w-100" alt="...">
+        <div class="card-body">
+          <p class="card-text">Coffee ice cream is a delightful frozen treat that combines the rich flavor of coffee with the creamy texture of ice cream.</p>
+          <div class="d-flex justify-content-between align-items-center">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        
+        <img src="https://images.unsplash.com/photo-1436491911682-72ab1d398f59?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100%" height="100%" class="d-block w-100" alt="...">
+
+        <div class="card-body">
+          <p class="card-text">Vanilla ice cream, despite its simplicity, remains one of the most beloved and versatile flavors in the world of frozen desserts.</p>
+          <div class="d-flex justify-content-between align-items-center">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://images.unsplash.com/photo-1586771787465-56c3a88f2fd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100%" height="100%" class="d-block w-100" alt="...">
+
+        <div class="card-body">
+          <p class="card-text">Mango ice cream captures the vibrant and exotic flavor of ripe mangoes, known for their juicy sweetness and tropical aroma.</p>
+          <div class="d-flex justify-content-between align-items-center">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://images.unsplash.com/photo-1585350988289-e9f48af47540?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100%" height="100%" class="d-block w-100" alt="...">
+
+        <div class="card-body">
+          <p class="card-text">Strawberry ice cream is a classic and beloved frozen treat known for its vibrant color, refreshing taste, and creamy texture</p>
+          <div class="d-flex justify-content-between align-items-center">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://images.unsplash.com/photo-1593709266843-2c0fcf62bcf3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100%" height="90%" class="d-block w-100" alt="...">
+
+        <div class="card-body">
+          <p class="card-text">Pista ice cream, also known as pistachio ice cream, is a flavorful and indulgent frozen dessert that features the unique.</p>
+          <div class="d-flex justify-content-between align-items-center">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://images.unsplash.com/photo-1574085731959-4b758fb4dc4a?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100%" height="100%" class="d-block w-100" alt="...">
+
+        <div class="card-body">
+          <p class="card-text">
+            Butterscotch ice cream is a delectable frozen dessert that combines the rich flavors of butter, brown sugar and Vanilla flavor.</p>
+          <div class="d-flex justify-content-between align-items-center">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://images.unsplash.com/photo-1501443762994-82bd5dace89a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100%" height="50%" class="d-block w-100" alt="...">
+
+        <div class="card-body">
+          <p class="card-text">Kulfi has a dense and creamy texture that sets it apart from traditional ice cream. It is made by boiling milk.</p>
+          <div class="d-flex justify-content-between align-items-center">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://images.unsplash.com/photo-1627373719412-746f5c1e5363?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100%" height="100%" class="d-block w-100" alt="...">
+
+        <div class="card-body">
+          <p class="card-text">A dessert made with semolina (sooji), ghee (clarified butter), sugar, and almonds. The almonds are typically ground.</p>
+          <div class="d-flex justify-content-between align-items-center">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="https://images.unsplash.com/photo-1541996275318-4890e83660a1?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100%" height="100%" class="d-block w-100" alt="...">
+
+        <div class="card-body">
+          <p class="card-text">Gulabi Ice Cream is rose-flavored ice cream that is often tinted pink to match its floral flavor.Gulabi Ice Cream is rose-flavored.</p>
+          <div class="d-flex justify-content-between align-items-center">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{%endblock body%}
